@@ -12,6 +12,14 @@ Before starting this tutorial it is assumed you have a fresh raspberry pi OS ins
 sudo apt-get install tk-dev build-essential texinfo texi2html libcwidget-dev libncurses5-dev libx11-dev binutils-dev bison flex libusb-1.0-0 libusb-dev libmpfr-dev libexpat1-dev tofrodos subversion autoconf automake libtool mercurial
 ```
 
+### Create a gpib user group for the udev rules to be added into later
+
+```bash
+sudo newgrp gpib
+```
+
+
+
 ### Checkout the LINUX-GPIB to home directory:
 
 ```bash
@@ -146,6 +154,7 @@ cd ~/linux-gpib-code/linux-gpib-user
 ./configure --sysconfdir=/etc
 make
 sudo make install
+```
 
 ### Check NI-GPIB-USB-HS is detected 
 
