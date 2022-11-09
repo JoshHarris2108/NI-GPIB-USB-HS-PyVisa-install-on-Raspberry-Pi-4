@@ -370,7 +370,7 @@ module = odin.adapters.system_info.SystemInfoAdapter
 ```
 
 
-Example snippet of successful startup (GPIB board errors are to be expected, caused by the pyvisa interrogation of all the GPIB bus lanes
+Example snippet of successful startup (GPIB board errors are to be expected, caused by the pyvisa interrogation of all the GPIB bus lanes, the main thing to look for is that is there are no errors with the boards you have attached, in this case only one board is attached and so it is GPIB board 0, and as the log shows below there are no errors with that board)
 ```
 [D 221108 15:20:57 system_info:37] SystemInfoAdapter loaded
 [D 221108 15:20:57 api:145] Registered API adapter class SystemInfoAdapter from module odin.adapters.system_info for path system_info
