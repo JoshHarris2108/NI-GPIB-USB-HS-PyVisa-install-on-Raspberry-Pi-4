@@ -2,6 +2,7 @@
 Tutorial on installing USB drivers for the NI-GPIB-USB-HS and PyVisa onto a Raspberry Pi 4 to enable the use of the odin-gpib adapter
 
 Before starting this tutorial it is assumed you have a fresh raspberry pi OS install, in this case I am using "2022-09-22-raspios-bullseye-arm64" https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2022-09-26/2022-09-22-raspios-bullseye-arm64.img.xz
+It is also assumed you are familiar with raspberryPi hardware, the Linux operating system environment, and how to use the bash shell within Linux
 
 
 ## Linux-GPIB-drivers 
